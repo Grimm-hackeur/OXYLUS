@@ -18,7 +18,7 @@ const port = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "https://vybee.onrender.com",
+    origin: "https://backend-oxylus.onrender.com",
     credentials: true,
   })
 );
